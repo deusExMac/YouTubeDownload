@@ -1,0 +1,61 @@
+
+#
+# List of YouTube videos of different lengths and quality 
+# to test ytDownload. 
+# This file is intended to be used with the -f option.
+#
+# Lines starting with # are comments and will be ignored.
+#
+
+
+# Static image. Duration: around 4:55. Available quality: 1080p, 720p, 480p, 360p,  144p
+https://www.youtube.com/watch?v=8KCHVen61tE&list=RD8KCHVen61tE
+
+# Video. Duration: around 3:59. Available quality: 480p, 360p,  144p
+https://www.youtube.com/watch?v=ubVc2MQwMkg
+
+# Video. Duration: around 1:10:17. Available quality: 1080p, 720p, 480p, 360p, 240p, 144p
+https://www.youtube.com/watch?v=bRcu-ysocX4
+
+# Video. Duration: around 10:20. Available quality: 720p, 480p, 360p, 240p, 144p
+https://www.youtube.com/watch?v=y-E7_VHLvkE
+
+# Video. Duration: around 8:58. Available quality: 720p, 480p, 360p, 240p, 144p
+https://www.youtube.com/watch?v=_UiL7ErcPf0
+
+
+# Video. Duration: around 8:52. Available quality: 1080p, 720p, 480p, 360p, 240p, 144p
+https://www.youtube.com/watch?v=qwb3P0fuM1c
+
+# Video. Duration: around 3:45. Available quality: 240p, 144p
+https://www.youtube.com/watch?v=WCeFUZ7cVK4
+
+# Video. Duration: around 0:37. Available quality: 720p, 480p, 360p, 240p, 144p
+https://www.youtube.com/watch?v=9UmQzqxcy4s
+
+# Video. Duration: around 0:18. Available quality: 240p, 144p
+https://www.youtube.com/watch?v=jNQXAC9IVRw
+
+# Video. Duration: around 2:36. Available quality: 240p, 144p
+https://www.youtube.com/watch?v=zWH_9VRWn8Y
+
+# Invalid/non-existing Video. Should generate an error/exception
+https://www.youtube.com/watch?v=XXX666XXX
+
+# Video. Duration: 4:47. Available quality: 1080p50, 720p50, 480p, 360p, 240p, 144p
+https://www.youtube.com/watch?v=jrESUDJuXlM
+
+# Video. Duration 4:26. Available quality: 240p, 144p
+https://www.youtube.com/watch?v=zTVlifTAdlM
+
+# Video. Duration 4:51. Available quality: 720p, 480p, 360p, 240p, 144p
+https://www.youtube.com/watch?v=4dbBur_bSUE
+
+# Video. Duration 12:09. Available quality: 1080p, 720, 480p, 360p, 240p, 144p
+https://www.youtube.com/watch?v=G_PUUHLknDI
+
+# Video. Duration: 12:31. Available quality: 1080pHD, 720, 480p, 360p, 240p, 144p
+https://www.youtube.com/watch?v=xpVQ3l5P0A4
+
+# Invalid URL. Should generate an error/exception
+https://123
