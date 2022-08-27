@@ -16,7 +16,7 @@ import clrprint
 # The following two classes are used to parse
 # arguments on the shell 'scommand line.
 #
-# These specialize ArgumentOarser of argparse module by
+# These specialize ArgumentParser class of argparse module by
 # throwing an exception if arguments are not correct.
 class ArgumentParserError(Exception): pass
   
