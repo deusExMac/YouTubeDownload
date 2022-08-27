@@ -24,7 +24,7 @@ Supported arguments via the command line or customized execution via the IDE:
 
 Arguments:
 
-``[-f urlFile]``: Path to file containing urls to YouTube videos to be downloaded. Inside the file, each url should be in a separate line. See file [testUrls.txt](https://github.com/deusExMac/ytDownload/blob/main/testUrls.txt) for an example.
+``[-f urlFile]``: Path to file containing urls to YouTube videos to be batch downloaded. Inside the file, each url should be in a separate line. See file [testUrls.txt](https://github.com/deusExMac/ytDownload/blob/main/testUrls.txt) for an example.
 
 ``[-o output directory]``: path to local directory where the downloaded YouTube videos/audio files should be stored. If path does not exist, it is (recursively) created. If creation fails, the script terminates. Downloaded files become the name of the YouTube video title. If file already exists, it is overwritten. Default output directory (if no -o option is given) is the current working directory (./). Videos are currently able to be downloaded and stored only in mp4 format.
 
